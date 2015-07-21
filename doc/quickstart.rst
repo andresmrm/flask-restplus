@@ -39,7 +39,7 @@ With Flask-Restplus, you only import the api instance to route and document your
         def get(self):
             return {}
 
-        def post(self)
+        def post(self):
             api.abort(403)
 
 
